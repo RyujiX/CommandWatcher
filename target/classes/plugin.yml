@@ -1,0 +1,14 @@
+name: CommandWatcher
+version: 1.0-SNAPSHOT
+main: dev.ryujix.commandwatcher.CommandWatcher
+authors: [RyujiX]
+description: Watch all your players commands from in game!
+commands:
+  commandwatcher:
+    description: Main command to enable CommandWatcher.
+    aliases: [cw]
+
+permissions:
+  commandwatcher.*:
+    default: op
+    description: Give players with op everything by default.
